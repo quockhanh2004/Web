@@ -1,0 +1,97 @@
+body{
+    background-color: #0a0c10;;
+}
+.Header {
+    z-index: 32;
+    height: 30px;
+    display: flex;
+    padding: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ffffffb3;
+    background-color: #272b33;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.Header-item {
+    display: flex;
+    margin-right: 16px;
+    justify-content: space-between;
+align-items: center;
+}
+.d-md-flex {
+    display: flex !important;
+}
+.mr-0 {
+    margin-right: 0 !important;
+}
+.dropdown-caret {
+    border-bottom-color: #0000;
+    border-left-color: #0000;
+    border-right-color: #0000;
+    border-style: solid;
+    border-width: var(--primer-borderWidth-thicker, 4px) var(--primer-borderWidth-thicker, 4px) 0;
+    content: "";
+    display: inline-block;
+    height: 0;
+    vertical-align: middle;
+    width: 0;
+}
+
+.next{
+    display: flex;
+    padding: 16px;
+    flex-direction: center;
+    align-items: center;
+}
+.avatar {
+    border-radius: 50%;
+    overflow: hide;
+}
+.border-right {
+    border-right: var(--auto, 1px) solid #7a828e !important;
+    margin-top: -15px;
+}
+.search-box {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border: 1px solid #525964;
+    margin: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #0a0c10;
+}
+nav {
+    margin: 40px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+.menu>a{
+    Color: #fff;
+    Text-decoration:none;
+    margin: 7px;
+}
+.menu>a:hover{
+    Color:red;
+    Text-decoration:underline
+}
+.menu1>a{
+    Color: #fff;
+    Text-decoration:none;
+    margin: 7px;
+    margin-top: 10px;
+}
+.menu1>a:hover{
+    Color:red;
+    Text-decoration:underline
+}
+.px-md-4 {
+    padding-right: var(--base-size-24, 24px) !important;
+    padding-left: var(--base-size-24, 24px) !important;
+}
+.px-lg-5 {
+    padding-right: var(--base-size-32, 32px) !important;
+    padding-left: var(--base-size-32, 32px) !important;
+}
