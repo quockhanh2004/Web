@@ -1,0 +1,88 @@
+.main{
+    clear: both;
+    width: 99vw;
+    min-height: 100vh;
+    display: flex;
+    /* float: left; */
+}
+
+.left {
+    width: 18.5vw;
+    height: 100vh;
+    padding-left: 32px;
+    padding-right: 32px;
+    position: sticky;
+    float: left;
+    /* display: flex; */
+}
+
+.tieu_de {
+    margin-top: 0px;
+    padding-top: 20px;
+    float: left;
+}
+
+.buttom_repository {
+    margin-left: 5vw;
+    margin-top: 20px;
+    background-color: #09b43a;
+    float: left;
+    width: 70px;
+    height: 28px;
+    border-radius: 3px;
+}
+.buttom_repository>a>*{
+    align-items: center;
+    width: 25%;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #0a0c10 !important;
+}
+
+.search-box2 {
+    width: 70%;
+    margin-top: 30px;
+    vertical-align: middle;
+    margin-left: 0px;
+    margin-right: 10px;
+    border-radius: 10px;
+    clear: both;
+}
+
+.search-box2>form {
+    padding-top: 30px;
+}
+
+.search-box2 form input {
+    /* width: 70%; */
+    border: 1px solid #525964;
+    background-color: #0a0c10;
+    border-radius: 10px;
+    max-width: 272px;
+    min-width: 117px;
+    width: 142%;
+    height: 25px;
+    padding-left: 7px;
+    color: #f0f3f6;
+}
+.repo{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.item1{
+    font-size: 12px;
+}
+.avatar-repo{
+    
+    border: #525964 0.5px solid;
+    border-radius: 50%;
+}
+.box1{
+    border: 1px dotted #7a828e !important;
+    border-radius: 6px;
+    padding: 16px !important;
+    margin-top: 8px;
+    font-size: 12px;
+}

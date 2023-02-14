@@ -1,0 +1,116 @@
+.center{
+    width: 55vw;
+    padding-left: 2%;
+    padding-right: 3%;
+}
+.following-foryou{
+    /* float: left; */
+    border-bottom: #525964 solid 1px;
+}
+.following-foryou{
+    display: flex;
+}
+.following-foryou>div>button{
+    background-color: #0a0c10 !important;
+    padding: 10px;
+    border-radius: 6px;
+    border: #0a0c10;
+    
+}
+.following-foryou>div>button:hover{
+    background-color: #525964 !important;
+}
+.border-bottom{
+    border-bottom: 1px solid #ff967d !important;
+    padding-bottom: 3px;
+}
+.item{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.tweak{
+    margin-top: 5px;
+    width: 60%;
+    font-size: 13px;
+    font-weight: 350;
+}
+.item>.name>*{
+    float: left;
+}
+.avatar-new{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+.newstart{
+    width: auto;
+    height: 100px;
+    margin-top: 8px;
+    padding: 16px;
+    border: 1px solid #7a828e;
+    border-radius: 6px;
+    /* clear: both; */
+    /* display: flex; */
+}
+.newstart>ul{
+    float: left;
+    margin-right: 65%;
+}
+.newstart>ul>li>*{
+    font-size: 13px;
+}
+.newstart>div{
+    display: flex;
+}
+.newstart>div>button{
+    width: 80px;
+    height: 36px;
+    background-color: #0a0c10;
+    border: #f0f3f6 1px solid;
+    border-radius: 6px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    display: flex;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+.newstart>div>button:hover{
+    background-color: #7a828e !important;
+}
+.newstart>div>button>img{
+    width: 16px;
+    height: 16px;
+    margin-right: 6px
+}
+.buttom-right{
+    margin-left: -1px;
+    width: 36px !important;
+    background-color: #0a0c10;
+    border: #f0f3f6 1px solid;
+    border-radius: 6px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+.language-code{
+    margin-top: 10px;
+    margin-left: 0px;
+    
+}
+.language-code>p{
+    font-size: 12px;
+    margin-right: 10px;
+}
+.language-code>img{
+    margin-right: 15px;
+}
+.repo-language-color {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 5px;
+}
