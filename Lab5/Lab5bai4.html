@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lab 5 bài 4</title>
+        <style>
+body{
+    margin: 8px !important;
+}
+a{
+    text-decoration: none !important;
+}
+nav {
+    background-color: #333;
+    width: 100%;
+    display: flex;
+}
+li{
+    
+    list-style: none;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+nav a {
+    display: inline-block;
+    color: #fff;
+    
+    
+    text-emphasis: none;
+}
+
+nav li.active {
+    background-color: green;
+}
+
+li:hover{
+    background-color: aqua;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    h2 {
+        text-align: center;
+        width: 100%;
+        font-size: 7vw;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    nav a {
+        text-align: center !important;
+        width: 100%;
+    }
+    nav li.active{
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    nav {
+        flex-direction: column;
+        background-color: #333;
+        text-align: center !important;
+    }
+    
+    h2 {
+        text-align: center !important;
+        width: 100%;
+        font-size: 7vw;
+    }
+
+    nav a {
+        width: 100%;
+    }
+    nav li.active{
+        background-color: red ;
+    }
+}
+        </style>
+    </head>
+    <body>
+        <h2>Responsive</h2>
+        <nav>
+            <li class="active"><a href="">Home</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">About</a></li></nav>
+    </body>
+</html>
